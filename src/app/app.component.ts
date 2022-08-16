@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lecture4';
+  color = 'green'; 
+
+  divEnter(){
+    this.color ='blue';
+  }
+  divLeave(){
+    this.color ='green';
+  }
 }
